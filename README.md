@@ -1,5 +1,6 @@
 # Praktikum3
 # Kelas Pegawai
+
 class Pegawai {
     private String nama;
     private double gajiPokok;
