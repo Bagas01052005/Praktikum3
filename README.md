@@ -1,7 +1,9 @@
 # Praktikum3
+
 # Kelas Pegawai
 
 class Pegawai {
+
     private String nama;
     private double gajiPokok;
 
@@ -31,7 +33,9 @@ class Pegawai {
 }
 
 # Kelas Manager yang merupakan subclass dari Pegawai
+
 class Manager extends Pegawai {
+
     private double tunjangan;
 
     // Setter dan Getter untuk tunjangan
@@ -50,6 +54,7 @@ class Manager extends Pegawai {
 }
 
 # Kelas Programmer yang merupakan subclass dari Pegawai
+
 class Programmer extends Pegawai {
     private double bonus;
 
