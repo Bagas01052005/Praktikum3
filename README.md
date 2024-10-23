@@ -58,7 +58,7 @@ class Manager extends Pegawai {
 class Programmer extends Pegawai {
     private double bonus;
 
-    // Setter dan Getter untuk bonus
+    
     public void setBonus(double bonus) {
         this.bonus = bonus;
     }
@@ -67,7 +67,7 @@ class Programmer extends Pegawai {
         return bonus;
     }
 
-    // Metode untuk mencetak bonus
+    
     public void cetakBonus() {
         System.out.println("Bonus: " + bonus);
     }
