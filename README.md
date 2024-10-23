@@ -7,7 +7,6 @@ class Pegawai {
     private String nama;
     private double gajiPokok;
 
-    // Setter dan Getter untuk nama
     public void setNama(String nama) {
         this.nama = nama;
     }
@@ -16,7 +15,6 @@ class Pegawai {
         return nama;
     }
 
-    // Setter dan Getter untuk gajiPokok
     public void setGajiPokok(double gajiPokok) {
         this.gajiPokok = gajiPokok;
     }
@@ -25,7 +23,6 @@ class Pegawai {
         return gajiPokok;
     }
 
-    // Metode untuk mencetak informasi pegawai
     public void cetakInfo() {
         System.out.println("Nama: " + nama);
         System.out.println("Gaji Pokok: " + gajiPokok);
@@ -36,9 +33,8 @@ class Pegawai {
 
 class Manager extends Pegawai {
 
-    private double tunjangan;
-
-    // Setter dan Getter untuk tunjangan
+    private double tunjangan
+    
     public void setTunjangan(double tunjangan) {
         this.tunjangan = tunjangan;
     }
@@ -47,7 +43,7 @@ class Manager extends Pegawai {
         return tunjangan;
     }
 
-    // Metode untuk mencetak tunjangan
+    
     public void cetakTunjangan() {
         System.out.println("Tunjangan: " + tunjangan);
     }
